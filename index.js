@@ -8,12 +8,12 @@ const generateMarkdown = require("./utils/generateMarkdown")
 const questions = [
 {
     type:"input",
-    message:"What would you like to call your project?",
+    message:"What is the name of your project?",
     name:"project"
     },
 {
     type:"input",
-    message:"What is my project about?",
+    message:"Please enter your project's description.",
     name:"description"
     },
 {
@@ -33,7 +33,7 @@ const questions = [
     },
 {
     type:"input",
-    message:"What can this document generate?",
+    message:"Please describe what this file can do.",
     name:"tests"
     },    
 

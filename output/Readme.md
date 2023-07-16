@@ -1,6 +1,6 @@
 # undefined
 ## Description
-tttt
+To generate a ReadMe document
 
 ## Deployed Application URL
 undefined
@@ -11,15 +11,15 @@ undefined
 * [Tests](#tests)
 
 ## Installation
-ttttt
+Install
 
 ## Usage
-ttttt
+To make it easier to create a ReadMe File
 
 ## Contribution
-tttt
+Me
 
 ## Tests
-ttt
+Anyone
 
 
