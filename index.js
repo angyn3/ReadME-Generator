@@ -1,48 +1,48 @@
 // TODO: Include packages needed for this application
 const inquirer =  require("inquirer");
-const path = require ("path")
-const fs = require("file-system")
-const generateMarkdown = require("./utils/generateMarkdown")
+const path = require ("path");
+const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
 {
     type:"input",
+    name:"project",
     message:"What is the name of your project?",
-    name:"project"
     },
 {
     type:"input",
-    message:"Please enter your project's description.",
-    name:"description"
+    name:"description",
+    message:"Please describe the purpose and fuctionality.",
     },
 {
     type:"input",
-    message:"How to install this project?",
-    name:"installation"
+    name:"installation",
+    message:"What steps are required to install this project?",
     },
 {
     type:"input",
+    name:"usage",
     message:"What is the purpose of this file?",
-    name:"usage"
     },
 {
     type:"input",
-    message:"Who contributed to this document?",
-    name:"contributor"
+    name:"contributors",
+    message:"Please list the GitHub usernames of all contributors.",
     },
 {
     type:"input",
+    name:"tests",
     message:"Please describe what this file can do.",
-    name:"tests"
     },    
 
 {
     type:"list",
+    name:"choices",
     message:"Choose license for your Repo!",
-    choices:["Mit","none",],
-    name:"choices"
-    }
+    choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "None"],
+    },
 
 
 
