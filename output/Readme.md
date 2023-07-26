@@ -1,6 +1,6 @@
 # undefined
 ## Description
-To assist with making a ReadMe document a lot quicker
+To assist with making a readME document more efficient
 
 ## Deployed Application URL
 undefined
@@ -14,12 +14,12 @@ undefined
 "npm install"
 
 ## Usage
-The purpose of this file is to help users create a ReadMe file for all repos a lot quicker
+The purpose of this file is to help users create a readME file for their repo a lot quicker
 
 ## Contribution
-Me, Myself, & I
+undefined
 
 ## Tests
-Generate a ReadMe file
+To generate a readME document
 
 
