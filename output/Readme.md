@@ -14,12 +14,12 @@ undefined
 "npm install"
 
 ## Usage
-The purpose of this file is to help users create a readME file for their repo a lot quicker
+The purpose of this file is to help users create a readME file a lot quicker
 
 ## Contribution
 undefined
 
 ## Tests
-To generate a readME document
+To generate a readME file
 
 
